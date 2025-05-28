@@ -537,6 +537,10 @@ section{
         width: 56vw;
     }
 
+    .social-icons a{
+        font-size: 4rem;
+    }
+
     .about{
         flex-direction: column;
         padding: 5rem;
@@ -549,6 +553,7 @@ section{
     .about-img img{
         width: 56vw;
     }
+
 }
 
 @media (max-width: 991px) {
