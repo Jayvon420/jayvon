@@ -422,7 +422,7 @@ section{
 /* responsive mobile code */
 
 
-@media (max-width: 1285px) {
+/* @media (max-width: 1285px) {
     #menu-icon{
         display: block;
     }
@@ -478,7 +478,7 @@ section{
         width: 56vw;
     }
 
-}
+} */
 
 /* added from GPT */
 @media (max-width: 1200px) {
