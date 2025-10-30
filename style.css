@@ -320,7 +320,8 @@ section{
 }
 .projects-box{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-template-columns: repeat(4, 1fr); */
     place-items: center;
     gap: 3rem;
     /* row-gap: 5rem; */
@@ -328,7 +329,7 @@ section{
     /* align-items: stretch; Ensures all cards fill equal vertical space */
 }
 .project-card{
-    height: 100%; /* Make each card take full height available */
+    height: 100%; /*Make each card take full height available */
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between; /* Push content to top and bottom */
