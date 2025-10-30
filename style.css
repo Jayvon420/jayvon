@@ -320,11 +320,12 @@ section{
 }
 .projects-box{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     place-items: center;
     gap: 3rem;
-    row-gap: 5rem;
-    align-items: stretch; /* Ensures all cards fill equal vertical space */
+    /* row-gap: 5rem; */
+    row-gap: 3rem;
+    /* align-items: stretch; Ensures all cards fill equal vertical space */
 }
 .project-card{
     height: 100%; /* Make each card take full height available */
@@ -352,7 +353,8 @@ section{
                 0 0 100px var(--main-color);
 }
 .project-card img{
-    max-width: 250px;
+    /* max-width: 250px; */
+    max-width: 100%;
     border-radius: 1em;
     object-fit: cover;
 }
