@@ -325,7 +325,6 @@ section{
     place-items: center;
     gap: 3rem;
     /* row-gap: 5rem; */
-    row-gap: 3rem;
     /* align-items: stretch; Ensures all cards fill equal vertical space */
 }
 .project-card{
@@ -592,5 +591,52 @@ section{
   .contact form .input-box input,
   .contact form textarea {
     padding: 2rem;
+  }
+}
+
+/* project card */
+
+/* Responsive projects section */
+@media (max-width: 768px) {
+  .projects-box {
+    grid-template-columns: 1fr; /* stack cards vertically */
+    gap: 2rem;
+  }
+
+  .project-card {
+    width: 100%;
+    padding: 3rem 2rem;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-card h3 {
+    font-size: 2rem;
+  }
+
+  .project-card p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-box {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .project-card {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.8rem;
+  }
+
+  .project-card p {
+    font-size: 1.3rem;
   }
 }
